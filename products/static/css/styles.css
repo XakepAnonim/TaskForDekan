@@ -1,0 +1,122 @@
+/* Стили для кнопки */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Стили для формы */
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form input[type="text"],
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Стили для списка товаров */
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list li {
+  margin-bottom: 20px;
+}
+
+.product-list h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.product-list p {
+  margin-bottom: 10px;
+}
+
+/* Стили для добавлнения товаров */
+.add_product {
+  list-style: none;
+  padding: 0;
+}
+
+.add_product li {
+  margin-bottom: 20px;
+}
+
+.add_product h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.add_product p {
+  margin-bottom: 10px;
+}
+
+/* Стили для списка товаров */
+.list {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.list input[type="text"],
+.list textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.list button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.list h1 {
+  font-family: monospace;
+  font-size: 3em;
+  animation: color-change 6s infinite;
+}
+
+@keyframes color-change {
+    0% { color: red; }
+    20% { color: blue; }
+    40% { color: green; }
+    60% { color: yellow; }
+    80% { color: purple; }
+    100% { color: orange; }
+}
+
+/* Стили для светлой темы */
+body {
+  background-color: white;
+  color: #333;
+}
+
+/* Стили для темной темы */
+body.dark {
+  background-color: black;
+  color: white;
+}
